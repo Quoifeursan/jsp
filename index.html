@@ -37,6 +37,7 @@
 
     function saveToFile(content) {
       var fileContent = new Blob([content], { type: "text/plain" });
+      var newFilename = "config.za";
 
       var a = document.createElement("a");
       a.href = URL.createObjectURL(fileContent);
