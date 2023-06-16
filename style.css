@@ -18,7 +18,7 @@
   
   /* Styles pour la bannière */
   .banner {
-    background-color: #a90078;
+    background-color: #1a0928;
     color: #fff;
     padding: 20px;
   }
@@ -28,15 +28,15 @@
   }
   
   /* Styles pour le menu */
- .container {
+  .container {
     flex: 1;
     display: flex;
-}
-
+  }
   
   nav {
-    background-color: #440034;
-    width: 170px;
+    background-color: #2c0044;
+    width: 120px;
+     color: #ffffff;
   }
   
   nav ul {
@@ -48,6 +48,11 @@
     padding: 10px;
     
   }
+
+  nav ul li p {
+    color: #ffffff;
+  }
+
   
   nav ul li a,
   .container section a {
@@ -63,15 +68,26 @@
   section {
     padding: 20px;
     flex: 1;
-    background-color: #1e001e;
+    background-color: #540364;
     color: #ffffff;
   }
+table, caption, th, td {
+
+border: 2px solid white;
+  border-collapse: collapse;
+
+}
+caption, th, td {
+
+padding: 8px;
+
+}
   
   /* Styles pour le pied de page */
   footer {
-    background-color: #a90078;
+    background-color: #1a0928;
     color: #fff;
     padding: 20px;
+    text-align: center;
   }
-
-
+  
