@@ -8,6 +8,7 @@
   
   html, body {
     height: 100%;
+ 
   }
   
   .wrapper {
@@ -82,10 +83,10 @@ caption, th, td {
 padding: 8px;
 
 }
-/*form {
-  width: 80%; /* Définit une largeur de 80% par rapport à son conteneur parent */
-  height: 100px; /* Définit une hauteur de 200 pixels */
-}*/
+form {
+    width: 23%;
+    height: 220px;
+}
   
   /* Styles pour le pied de page */
   footer {
