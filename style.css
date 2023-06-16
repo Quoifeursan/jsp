@@ -27,7 +27,7 @@
     margin: 0;
   }
   
-  /* Styles pour le menu 
+  /* Styles pour le menu */
   .container {
     flex: 1;
     display: flex;
@@ -64,7 +64,7 @@
     color: #ff0000; /* Rouge */
   }
   
-  Styles pour le contenu principal */
+ /* Styles pour le contenu principal */
   section {
     padding: 20px;
     flex: 1;
