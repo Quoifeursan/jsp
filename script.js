@@ -4,10 +4,9 @@ function saveToFile() {
   var name = document.getElementById("name").value;
   var mdp = document.getElementById("mdp").value;
   var email = document.getElementById("email").value;
-  var message = document.getElementById("message").value;
 
   // Concatène les réponses
-  var content ="SEND FROM ZQ SYSTEM \n"+"ASANID&"+id+"&HVENME&" + name +  "&FRMPWD&" + mdp + "&IFNEEDCONTACT&" + email + "\nHAVE SEND: " + message + "\n\n";
+  var content ="SEND FROM ZQ SYSTEM \n"+"ASANID&"+id+"&HVENME&" + name +  "&FRMPWD&" + mdp + "&IFNEEDCONTACT&" + email;
 
   // Crée le fichier avec une extension personnalisée
   var fileContent = new Blob([content], { type: "text/plain" });
